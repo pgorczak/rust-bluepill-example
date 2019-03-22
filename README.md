@@ -56,5 +56,5 @@ This example is compiled from
 [embedded]: https://docs.rust-embedded.org/discovery
 [embedded-debug]: https://docs.rust-embedded.org/discovery/05-led-roulette/debug-it.html
 [embedded-verify]: https://docs.rust-embedded.org/discovery/03-setup/verify.html
-[stm32-docs]: https://docs.rs/stm32f1xx-hal/0.2.1/stm32f1xx_hal
-[stm32-examples]: https://docs.rs/crate/stm32f1xx-hal/0.2.1/source/examples
+[stm32-docs]: https://docs.rs/stm32f1xx-hal/0.2.1/stm32f1xx_hal/
+[stm32-examples]: https://docs.rs/crate/stm32f1xx-hal/0.2.1/source/examples/
