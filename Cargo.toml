@@ -1,0 +1,31 @@
+[package]
+name = "rust-bluepill-example"
+version = "0.0.1"
+repository = "https://github.com/pgorczak/rust-bluepill-example"
+
+[profile.release]
+lto = true
+codegen-units = 1
+debug = true
+
+[dependencies]
+panic-halt = "0.2.0"
+
+[dependencies.cortex-m]
+version = "0.5.8"
+
+[dependencies.cortex-m-rt]
+version = "0.6.5"
+
+[dependencies.cortex-m-semihosting]
+version = "0.3.2"
+
+[dependencies.panic-semihosting]
+version = "0.5.1"
+
+[dependencies.nb]
+version = "0.1.1"
+
+[dependencies.stm32f1xx-hal]
+version = "0.2.1"
+features = ["stm32f103", "rt"]
