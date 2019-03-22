@@ -8,7 +8,8 @@ specific board. This is such a setup for the blue pill board.
 
 ## Install dependencies
 
-* Install system packages *gdb-multiarch* and *openocd*
+* Install system packages *gdb-multiarch* and *openocd* (in Ubuntu; otherwise
+  check the detailed [setup instructions][embedded-setup])
 * Use nightly Rust from 2018-08-28 or newer (`rustup default nightly`)
 * Add the compilation target (`rustup target add thumbv7m-none-eabi`)
 
@@ -55,6 +56,7 @@ This example is compiled from
 [cortex-m-quickstart]: https://rust-embedded.github.io/cortex-m-quickstart/cortex_m_quickstart
 [embedded]: https://docs.rust-embedded.org/discovery
 [embedded-debug]: https://docs.rust-embedded.org/discovery/05-led-roulette/debug-it.html
+[embedded-setup]: https://docs.rust-embedded.org/discovery/03-setup/index.html
 [embedded-verify]: https://docs.rust-embedded.org/discovery/03-setup/verify.html
 [stm32-docs]: https://docs.rs/stm32f1xx-hal/0.2.1/stm32f1xx_hal/
 [stm32-examples]: https://docs.rs/crate/stm32f1xx-hal/0.2.1/source/examples/
